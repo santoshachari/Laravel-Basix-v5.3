@@ -169,6 +169,8 @@ return [
 
         // Laracasts Flash
         Laracasts\Flash\FlashServiceProvider::class,
+        // Debug bar
+        Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -205,6 +207,8 @@ return [
         'DB' => Illuminate\Support\Facades\DB::class,
         'Eloquent' => Illuminate\Database\Eloquent\Model::class,
         'Event' => Illuminate\Support\Facades\Event::class,
+        //Debug bar
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'File' => Illuminate\Support\Facades\File::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,
         'Hash' => Illuminate\Support\Facades\Hash::class,
