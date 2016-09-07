@@ -10,6 +10,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -74,6 +77,7 @@
             @endif
 
             <div class="content">
+                @include('flash::message')
                 <div class="title m-b-md">
                     Laravel
                 </div>
@@ -87,5 +91,12 @@
                 </div>
             </div>
         </div>
+        <!-- This is only necessary if you do Flash::overlay('...') -->
+        <script src="//code.jquery.com/jquery.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <script>
+            $('#flash-overlay-modal').modal();
+        </script>
     </body>
 </html>
