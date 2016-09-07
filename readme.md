@@ -1,8 +1,13 @@
 #About
 ## Laravel 5.3 Basix
 
-The package contains Laravel 5.3 base version along with many of the commonly used extensions, which have been configured and tested:
+The package contains Laravel 5.3 base version along with many of the commonly used extensions, which have been configured and tested. Ideal for working on a new project or testing a plugin.
 
+## How to install? 
+Simply git pull the package and run the command in the folder: 
+`composer install`
+
+## List of packages
 * Laravel 5.3
 * doctrine/dbal 
 * laracasts/generators
