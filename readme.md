@@ -1,26 +1,81 @@
-# Laravel PHP Framework
+#About
+## Laravel 5.3 Basix
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+The package contains Laravel 5.3 base version along with many of the commonly used extensions, which have been configured and tested:
+
+* Laravel 5.3
+* doctrine/dbal 
+* laracasts/generators
+* laracademy/generators
+* laracasts/flash 
+* barryvdh/laravel-ide-helper 
+* barryvdh/laravel-debugbar
+* laravelcollective/html
+* intervention/image
+* cviebrock/eloquent-sluggable 
+
+## Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
-
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-## Contributing
+## doctrine/dbal 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+This package is needed in order to run migration:rollback.
 
-## Security Vulnerabilities
+[Learn More] (https://packagist.org/packages/doctrine/dbal)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+## laracasts/generators 
+
+Artisan command for creating pivot table migrations and more.
+
+[Learn More] (https://github.com/laracasts/Laravel-5-Generators-Extended)
+
+## laracademy/generators 
+
+Artisan command for creating models from tables
+
+[Learn More] (https://github.com/laracademy/generators)
+
+## laracasts/flash 
+
+Nice handy helper to make your flash message syntax in your controller beautiful.
+
+[Learn More] (https://github.com/laracasts/flash)
+
+## barryvdh/laravel-ide-helper 
+
+Installs a helper class, which helps PhpStorm recognize your laravel classes, so you don’t end up with unnecessary error messages from your IDE.
+
+[Learn More] (https://github.com/barryvdh/laravel-ide-helper)
+
+## barryvdh/laravel-debugbar
+
+An absolute must for development. It installs a debug bar that sits at the bottom of the page that gives you helpful information on routes, DB queries and more.
+
+[Learn More] (https://github.com/barryvdh/laravel-debugbar)
+
+## laravelcollective/html
+
+Helps you do form model binding, shorter and quicker link helpers etc. 
+
+[Learn More] (https://laravelcollective.com/docs/5.2/html)
+
+## intervention/image 
+
+Very handy image helper class that lets you do things like save thumbnails of the image, set it as grayscale if you choose, and a whole lot more
+
+[Learn More] (http://image.intervention.io/getting_started/installation)
+
+## cviebrock/eloquent-sluggable 
+
+Very robust package for adding slugs to your url.
+
+[Learn More] (https://github.com/cviebrock/eloquent-sluggable)
+
 
 ## License
 
