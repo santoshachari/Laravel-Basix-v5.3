@@ -175,6 +175,8 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         // Sluggable
         Cviebrock\EloquentSluggable\ServiceProvider::class,
+        // Intervention Image Handler
+        Intervention\Image\ImageServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -222,6 +224,8 @@ return [
 
         //Laravel Collective HTML
         'Html' => Collective\Html\HtmlFacade::class,
+        // Intervention Image handler
+        'Image' => Intervention\Image\Facades\Image::class,
         'Lang' => Illuminate\Support\Facades\Lang::class,
         'Log' => Illuminate\Support\Facades\Log::class,
         'Mail' => Illuminate\Support\Facades\Mail::class,
