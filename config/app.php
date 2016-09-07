@@ -173,6 +173,8 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         // Laravel Collective HTML and Forms
         Collective\Html\HtmlServiceProvider::class,
+        // Sluggable
+        Cviebrock\EloquentSluggable\ServiceProvider::class,
 
         /*
          * Application Service Providers...
