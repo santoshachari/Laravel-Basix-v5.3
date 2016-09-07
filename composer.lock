@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5988625b8311dd3c4937a1eba1895653",
-    "content-hash": "e5dadff0eb55c5d098f58904c49298a7",
+    "hash": "776cc22f6bde1d42a48bd606fdcf5c0d",
+    "content-hash": "ddeeeb0acf46d25f8fad692d21d96d37",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -707,6 +707,43 @@
                 "tokenizer"
             ],
             "time": "2015-12-05 17:17:57"
+        },
+        {
+            "name": "laracademy/generators",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laracademy/generators.git",
+                "reference": "60564a64f15a6ff005a1b9149d2b094533a68374"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laracademy/generators/zipball/60564a64f15a6ff005a1b9149d2b094533a68374",
+                "reference": "60564a64f15a6ff005a1b9149d2b094533a68374",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Laracademy\\Generators\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael McMullen",
+                    "email": "michael@laracademy.co"
+                }
+            ],
+            "description": "This package will generate a Laravel Model based on your database table itself, filling in the required fields automatically.",
+            "keywords": [
+                "generators",
+                "laravel"
+            ],
+            "time": "2016-09-07 03:19:35"
         },
         {
             "name": "laravel/framework",
