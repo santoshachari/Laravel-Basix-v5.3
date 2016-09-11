@@ -20,3 +20,7 @@ Route::get('/', function () {
     flash('Hey There! This message is generated using Laracasts Flash Plugin','info')->important();
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
