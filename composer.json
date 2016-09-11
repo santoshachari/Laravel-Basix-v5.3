@@ -13,7 +13,8 @@
         "barryvdh/laravel-debugbar": "^2.2",
         "laravelcollective/html": "^5.3",
         "cviebrock/eloquent-sluggable": "^4.0",
-        "intervention/image": "^2.3"
+        "intervention/image": "^2.3",
+        "barryvdh/laravel-ide-helper": "^2.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
