@@ -2,6 +2,7 @@
 ## Laravel 5.3 Basix
 
 The package contains Laravel 5.3 base version along with many of the commonly used extensions, which have been configured and tested. Ideal for working on a new project or testing a plugin.
+NEW: Added Social login, and Multi-Auth as well. 
 
 ## How to install? 
 Simply git pull the package and run the command in the folder: 
@@ -80,6 +81,18 @@ Very handy image helper class that lets you do things like save thumbnails of th
 Very robust package for adding slugs to your url.
 
 [Learn More] (https://github.com/cviebrock/eloquent-sluggable)
+
+## hesto/multi-auth 
+
+Multiple Authentication configured for 'admin' user, and ready to use. For creating a new type of login just run a command like: `php artisan multi-auth:install employee -f`
+
+[Learn More] (https://github.com/Hesto/multi-auth)
+
+## laravel/socialite 
+
+Laravel Socialite, configured for logging in using Facebook. 
+
+[Learn More] (https://github.com/laravel/socialite)
 
 
 ## License
