@@ -23,6 +23,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
+//Facebook Login
+Route::get('/auth/facebook', 'Auth\SocialController@redirectToProvider');
+Route::get('/auth/facebook/callback', 'Auth\SocialController@handleProviderCallback');
+
 Route::get('/home', 'HomeController@index');
 
 //Admin Login

@@ -10,6 +10,7 @@
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
                         {{ csrf_field() }}
 
+                        <a class="btn btn-primary" href="{{ action('Auth\SocialController@redirectToProvider') }}"><span class="glyphicon glyphicon-thumbs-up"></span> Login with Facebook</a>
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                             <label for="email" class="col-md-4 control-label">E-Mail Address</label>
 
