@@ -1,8 +1,8 @@
-#About
 ## Laravel 5.3 Basix
 
 The package contains Laravel 5.3 base version along with many of the commonly used extensions, which have been configured and tested. Ideal for working on a new project or testing a plugin.
-NEW: Added Social login, and Multi-Auth as well. 
+
+**NEW: Added Social login, and Multi-Auth as well.** 
 
 ## How to install? 
 Simply git pull the package and run the command in the folder: 
