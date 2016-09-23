@@ -44,6 +44,12 @@
                 top: 18px;
             }
 
+            .top-left {
+                position: absolute;
+                left: 10px;
+                top: 18px;
+            }
+
             .content {
                 text-align: center;
             }
@@ -75,6 +81,12 @@
                     <a href="{{ url('/register') }}">Register</a>
                 </div>
             @endif
+                @if (Route::has('admin.login'))
+                    <div class="top-left links">
+                        <a href="{{ url('/admin/login') }}">Admin Login</a>
+                        <a href="{{ url('/admin/register') }}">Admin Register</a>
+                    </div>
+                @endif
 
             <div class="content">
                 @include('flash::message')

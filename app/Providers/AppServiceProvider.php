@@ -31,8 +31,11 @@ class AppServiceProvider extends ServiceProvider
             // Laracademy Model Generators
             $this->app->register('\Laracademy\Generators\GeneratorsServiceProvider');
 
-            //Barryvdh Laravel IDE Helper
+            // Barryvdh Laravel IDE Helper
             $this->app->register('\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider');
+
+            // Hesto Multi Auth
+            $this->app->register('Hesto\MultiAuth\MultiAuthServiceProvider');
         }
     }
 }

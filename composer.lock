@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ba04633e1c866f894886b93a12f2198",
-    "content-hash": "2458fba3ff6b7fe636350ae78689ba1c",
+    "hash": "b62f24077fa69e34337f6376bd70366a",
+    "content-hash": "12c7f21bbe98a0d1174e61d7bbe507e3",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -904,6 +904,84 @@
                 "uri"
             ],
             "time": "2016-06-24 23:00:38"
+        },
+        {
+            "name": "hesto/core",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Hesto/core.git",
+                "reference": "1e194b269d198b730d20e4243620ca23ac006c9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Hesto/core/zipball/1e194b269d198b730d20e4243620ca23ac006c9b",
+                "reference": "1e194b269d198b730d20e4243620ca23ac006c9b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hesto\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hesto",
+                    "email": "losiakp@gmail.com"
+                }
+            ],
+            "description": "Core classes for my other modules",
+            "time": "2016-09-09 13:25:24"
+        },
+        {
+            "name": "hesto/multi-auth",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Hesto/multi-auth.git",
+                "reference": "3dcd4869339031b8473095195634ddd15d2f2fc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Hesto/multi-auth/zipball/3dcd4869339031b8473095195634ddd15d2f2fc7",
+                "reference": "3dcd4869339031b8473095195634ddd15d2f2fc7",
+                "shasum": ""
+            },
+            "require": {
+                "hesto/core": ">=1.0.3",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hesto\\MultiAuth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hesto",
+                    "email": "losiakp@gmail.com"
+                }
+            ],
+            "description": "Multi Auth for Laravel 5.3",
+            "keywords": [
+                "auth",
+                "laravel",
+                "multi"
+            ],
+            "time": "2016-09-09 07:55:54"
         },
         {
             "name": "intervention/image",
