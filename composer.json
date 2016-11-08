@@ -16,7 +16,8 @@
         "intervention/image": "^2.3",
         "barryvdh/laravel-ide-helper": "^2.2",
         "hesto/multi-auth": "^1.0",
-        "laravel/socialite": "^2.0"
+        "laravel/socialite": "^2.0",
+        "intervention/imagecache": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

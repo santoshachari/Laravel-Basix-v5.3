@@ -44,3 +44,14 @@ Route::post('admin/password/reset', 'AdminAuth\ResetPasswordController@reset');
 Route::get('admin/password/reset', 'AdminAuth\ForgotPasswordController@showLinkRequestForm');
 Route::get('admin/password/reset/{token}', 'AdminAuth\ResetPasswordController@showResetForm');
 
+
+Route::get('imageupload',function(){
+    return view('imageUpload') ;
+});
+
+Route::post('image/upload','ImagesController@store');
+
+Route::get('test',function(){
+    Storage::disk('local')->put('file.txt', 'Contents');
+    return asset('storage/file.txt');
+});
